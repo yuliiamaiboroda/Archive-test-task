@@ -8,7 +8,7 @@ function writeResultsToFile(data) {
     if (err) {
       console.log("Error writing to file", err);
     } else {
-      console.log(`Results successfull written`);
+      console.log("Results successfull written");
     }
   });
 }
